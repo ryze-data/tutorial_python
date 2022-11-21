@@ -7,11 +7,11 @@ Ensure you have python 3.9 installed
 Ensure you have pre-selected where you want this directory setup
 
 ## Steps
-    mkdir env
-    py -m venv .\env
+    mkdir venv
+    py -m venv .\venv
 
 ### Activate Environment
-    .\env\Scripts\activate
+    .\venv\Scripts\activate
 ### Ensure Pip is up to date
     python -m pip install --upgrade pip
 
