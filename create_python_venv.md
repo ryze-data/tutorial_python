@@ -15,10 +15,11 @@ Ensure you have pre-selected where you want this directory setup
 ### Ensure Pip is up to date
     py -m pip install --upgrade pip
 
-### Install Prefect
-    py -m pip install prefect
-### Installs dbt
-    py -m pip install dbt-snowflake
+### Install packages: i.e. Pandas
+    py -m pip install pandas
+    
+### Install packages from requirements.txt file
+    pip install -r requirements.txt
 
 # Alternative
 # Deactivate environment
