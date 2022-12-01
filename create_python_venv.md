@@ -39,7 +39,7 @@ ELSE
     sudo python3 -m venv ./venv
 
 ### Activate Environment
-    .\venv\bin\activate
+    ./venv/bin/activate
 ### Ensure Pip is up to date
     python3 -m pip install --upgrade pip
 
