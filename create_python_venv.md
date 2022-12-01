@@ -34,8 +34,7 @@ IF not installed
 ELSE  
 
     mkdir venv
-    sudo 
-    python3 -m venv .\venv
+    sudo python3 -m venv .\venv
 
 ### Activate Environment
     .\venv\bin\activate
