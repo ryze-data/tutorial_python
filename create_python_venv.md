@@ -27,6 +27,8 @@ Instructions for Windows. Linux Ubuntu is below as well.
 ## Linux Steps
 Note: This was tested on Ubuntu 22 with python 3.10  
 
+Navigate the project folder  
+
 IF not installed 
 
     sudo apt install python3.10-venv
@@ -34,7 +36,7 @@ IF not installed
 ELSE  
 
     mkdir venv
-    sudo python3 -m venv .\venv
+    sudo python3 -m venv ./venv
 
 ### Activate Environment
     .\venv\bin\activate
