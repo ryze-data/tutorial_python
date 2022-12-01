@@ -11,7 +11,7 @@ Instructions for Windows. Linux Ubuntu is below as well.
     mkdir venv
     py -m venv .\venv
 
-### Activate Environment
+### Activate Virtual Environment
     .\venv\Scripts\activate
 ### Ensure Pip is up to date
     py -m pip install --upgrade pip
@@ -38,8 +38,8 @@ ELSE
     mkdir venv
     sudo python3 -m venv ./venv
 
-### Activate Environment
-    ./venv/bin/activate
+### Activate Virtual Environment
+    source ./venv/bin/activate
 ### Ensure Pip is up to date
     python3 -m pip install --upgrade pip
 
